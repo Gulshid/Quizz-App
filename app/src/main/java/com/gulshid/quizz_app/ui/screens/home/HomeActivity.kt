@@ -1,4 +1,4 @@
-package com.quizapp.ui.screens.home
+package com.gulshid.quizz_app.ui.screens.home
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import com.quizapp.data.model.QuizCategory
-import com.quizapp.databinding.ActivityHomeBinding
-import com.quizapp.ui.screens.quiz.QuizActivity
-import com.quizapp.viewmodel.HomeViewModel
+import com.gulshid.quizz_app.data.model.QuizCategory
+import com.gulshid.quizz_app.databinding.ActivityHomeBinding
+import com.gulshid.quizz_app.ui.screens.quiz.QuizActivity
+import com.gulshid.quizz_app.viewmodel.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlin.math.roundToInt
 

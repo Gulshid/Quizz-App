@@ -1,4 +1,4 @@
-package com.quizapp.ui.screens.home
+package com.gulshid.quizz_app.ui.screens.home
 
 import android.graphics.Color
 import android.view.LayoutInflater
@@ -6,9 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.quizapp.data.model.Difficulty
-import com.quizapp.data.model.QuizCategory
-import com.quizapp.databinding.ItemCategoryBinding
+import com.gulshid.quizz_app.data.model.Difficulty
+import com.gulshid.quizz_app.data.model.QuizCategory
+import com.gulshid.quizz_app.databinding.ItemCategoryBinding
+import com.gulshid.quizz_app.R
 
 class CategoryAdapter(
     private val onCategoryClick: (QuizCategory) -> Unit
@@ -49,7 +50,7 @@ class CategoryAdapter(
             val alphaColor = Color.argb(30, Color.red(color), Color.green(color), Color.blue(color))
             iconBg.background?.let {
                 iconBg.setBackgroundColor(alphaColor)
-                iconBg.background = iconBg.context.getDrawable(com.quizapp.R.drawable.bg_circle)
+                iconBg.background = iconBg.context.getDrawable(R.drawable.bg_circle)
                 iconBg.background.setTint(alphaColor)
             }
 

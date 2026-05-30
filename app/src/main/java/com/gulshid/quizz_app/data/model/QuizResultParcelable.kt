@@ -1,4 +1,4 @@
-package com.quizapp.data.model
+package com.gulshid.quizz_app.data.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

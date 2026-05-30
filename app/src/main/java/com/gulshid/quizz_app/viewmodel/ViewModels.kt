@@ -1,11 +1,11 @@
-package com.quizapp.viewmodel
+package com.gulshid.quizz_app.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.quizapp.data.model.*
-import com.quizapp.data.repository.QuizRepository
+import com.gulshid.quizz_app.data.model.*
+import com.gulshid.quizz_app.data.repository.QuizRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

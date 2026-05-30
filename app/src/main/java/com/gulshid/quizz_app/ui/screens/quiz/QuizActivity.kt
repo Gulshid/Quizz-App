@@ -1,4 +1,4 @@
-package com.quizapp.ui.screens.quiz
+package com.gulshid.quizz_app.ui.screens.quiz
 
 import android.content.Intent
 import android.graphics.Color
@@ -12,15 +12,15 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.android.material.progressindicator.LinearProgressIndicator
-import com.quizapp.R
-import com.quizapp.data.model.Difficulty
-import com.quizapp.data.model.Question
-import com.quizapp.databinding.ActivityQuizBinding
-import com.quizapp.databinding.ItemOptionBinding
-import com.quizapp.ui.screens.result.ResultActivity
-import com.quizapp.viewmodel.AnswerState
-import com.quizapp.viewmodel.QuizState
-import com.quizapp.viewmodel.QuizViewModel
+import com.gulshid.quizz_app.R
+import com.gulshid.quizz_app.data.model.Difficulty
+import com.gulshid.quizz_app.data.model.Question
+import com.gulshid.quizz_app.databinding.ActivityQuizBinding
+import com.gulshid.quizz_app.databinding.ItemOptionBinding
+import com.gulshid.quizz_app.ui.screens.result.ResultActivity
+import com.gulshid.quizz_app.viewmodel.AnswerState
+import com.gulshid.quizz_app.viewmodel.QuizState
+import com.gulshid.quizz_app.viewmodel.QuizViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -236,7 +236,8 @@ class QuizActivity : AppCompatActivity() {
     private fun navigateToResult() {
         val result = viewModel.quizResult.value ?: return
         val intent = Intent(this, ResultActivity::class.java).apply {
-            putExtra(ResultActivity.EXTRA_RESULT, com.quizapp.data.model.QuizResultParcelable.from(result))
+
+            putExtra(ResultActivity.EXTRA_RESULT, com.gulshid.quizz_app.data.model.QuizResultParcelable.from(result))
         }
         startActivity(intent)
         finish()

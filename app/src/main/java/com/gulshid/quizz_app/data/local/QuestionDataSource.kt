@@ -1,8 +1,8 @@
-package com.quizapp.data.local
+package com.gulshid.quizz_app.data.local
 
-import com.quizapp.data.model.Difficulty
-import com.quizapp.data.model.Question
-import com.quizapp.data.model.QuizCategory
+import com.gulshid.quizz_app.data.model.Difficulty
+import com.gulshid.quizz_app.data.model.Question
+import com.gulshid.quizz_app.data.model.QuizCategory
 
 object QuestionDataSource {
 

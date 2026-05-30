@@ -103,3 +103,5 @@
         <item name="strokeWidth">1.5dp</item>
     </style>
 </resources>
+<!-- Aliases matching the namespace used in AndroidManifest -->
+<!-- Intentionally blank styles that inherit from the actual styles -->

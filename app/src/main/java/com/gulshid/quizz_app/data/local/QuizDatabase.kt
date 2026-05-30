@@ -1,9 +1,9 @@
-package com.quizapp.data.local
+package com.gulshid.quizz_app.data.local
 
 import androidx.room.*
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.quizapp.data.model.AnsweredQuestion
+import com.gulshid.quizz_app.data.model.AnsweredQuestion
 import kotlinx.coroutines.flow.Flow
 
 // ─── Entity ───────────────────────────────────────────────────────────────────

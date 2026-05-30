@@ -1,12 +1,12 @@
-package com.quizapp.utils
+package com.gulshid.quizz_app.utils
 
 import android.content.Context
 import android.util.TypedValue
 import android.view.View
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.quizapp.R
-import com.quizapp.data.model.Difficulty
+import com.gulshid.quizz_app.R
+import com.gulshid.quizz_app.data.model.Difficulty
 
 fun View.show() { visibility = View.VISIBLE }
 fun View.hide() { visibility = View.GONE }

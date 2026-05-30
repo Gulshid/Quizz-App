@@ -1,13 +1,13 @@
-package com.quizapp.ui.screens.result
+package com.gulshid.quizz_app.ui.screens.result
 
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.quizapp.data.model.QuizResultParcelable
-import com.quizapp.databinding.ActivityResultBinding
-import com.quizapp.ui.screens.home.HomeActivity
-import com.quizapp.ui.screens.quiz.QuizActivity
+import com.gulshid.quizz_app.data.model.QuizResultParcelable
+import com.gulshid.quizz_app.databinding.ActivityResultBinding
+import com.gulshid.quizz_app.ui.screens.home.HomeActivity
+import com.gulshid.quizz_app.ui.screens.quiz.QuizActivity
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.concurrent.TimeUnit
 

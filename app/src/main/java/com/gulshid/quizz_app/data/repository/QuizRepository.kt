@@ -1,9 +1,9 @@
-package com.quizapp.data.repository
+package com.gulshid.quizz_app.data.repository
 
-import com.quizapp.data.local.QuestionDataSource
-import com.quizapp.data.local.QuizDatabase
-import com.quizapp.data.local.QuizResultEntity
-import com.quizapp.data.model.*
+import com.gulshid.quizz_app.data.local.QuestionDataSource
+import com.gulshid.quizz_app.data.local.QuizDatabase
+import com.gulshid.quizz_app.data.local.QuizResultEntity
+import com.gulshid.quizz_app.data.model.*
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

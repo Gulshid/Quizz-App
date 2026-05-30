@@ -1,4 +1,4 @@
-package com.quizapp.ui.screens.splash
+package com.gulshid.quizz_app.ui.screens.splash
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
-import com.quizapp.databinding.ActivitySplashBinding
-import com.quizapp.ui.screens.home.HomeActivity
+import com.gulshid.quizz_app.databinding.ActivitySplashBinding
+import com.gulshid.quizz_app.ui.screens.home.HomeActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

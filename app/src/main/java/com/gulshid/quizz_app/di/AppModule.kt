@@ -1,9 +1,9 @@
-package com.quizapp.di
+package com.gulshid.quizz_app.di
 
 import android.content.Context
 import androidx.room.Room
-import com.quizapp.data.local.QuizDatabase
-import com.quizapp.data.repository.QuizRepository
+import com.gulshid.quizz_app.data.local.QuizDatabase
+import com.gulshid.quizz_app.data.repository.QuizRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
