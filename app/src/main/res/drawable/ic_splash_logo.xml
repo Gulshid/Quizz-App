@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Brain/Quiz icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20 C38.5,20 26,32.5 26,48 C26,57 30.5,64.9 37.5,69.8 L37.5,80 C37.5,82.2 39.3,84 41.5,84 L66.5,84 C68.7,84 70.5,82.2 70.5,80 L70.5,69.8 C77.5,64.9 82,57 82,48 C82,32.5 69.5,20 54,20 Z" />
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M45,50 L63,50 M45,42 L59,42 M45,58 L57,58"
+        android:strokeColor="#6C63FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <rect
+        android:fillColor="#FFFFFF"
+        android:left="44"
+        android:top="84"
+        android:right="64"
+        android:bottom="90" />
+    <rect
+        android:fillColor="#FFFFFF"
+        android:left="48"
+        android:top="90"
+        android:right="60"
+        android:bottom="94" />
+</vector>
